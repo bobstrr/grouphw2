@@ -8,4 +8,5 @@ while True:
     invitations.discard(invites)
 
 print(len(invitations))
-print(sorted(invitations))
+for invitation in invitations:
+    print(invitation)
